@@ -67,7 +67,7 @@
     margin-top: 20px;
     display: inline-block;
     vertical-align: top;
-    height: 200px;      
+    height: 250px;      
 }
 
 .section-four{
@@ -77,8 +77,9 @@
     border-radius: 10px;
     margin-top: 20px;
     display: inline-block;
-    height: 200px;
-    vertical-align: top;    
+    height: 250px;
+    vertical-align: top;   
+    width: 70%; 
 }
 
 
@@ -100,8 +101,9 @@
     margin-top: 20px;
 }
 
-.contact-form__input,.contact-form__textarea,.contact-form__submit{
+.contact-form__name,.contact-form__role,.contact-form__home{
     margin-top: 10px;
+    
 }
 
 .contact-form{
@@ -134,13 +136,20 @@
     margin-top: 10px;
 }
 
-.contact-form__textarea{
+td{
     padding: 10px;
-    border: none;
-    border: solid black 1px;
+
 }
 
-.contact-form__submit{
+input{
+
+    width: 100%;
+    border-style: none;
+    border-bottom-style: double;
+    padding: 10px;
+}
+
+.button-decoration{
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
@@ -159,11 +168,7 @@
     
 }
 
-.contact-form__input{
-    padding: 10px;
-   outline: 0 px;
 
-}
 
  
 
